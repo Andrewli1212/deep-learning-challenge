@@ -80,9 +80,9 @@ Through the diligent optimization process, the model's accuracy was notably impr
 
 The deep learning model underwent significant refinement and optimization to enhance its performance in predicting the success of funding applicants. The initial model achieved an accuracy of 73%, which did not meet the predefined goal of 75%. To address this, the following steps were taken:
 
-Feature Engineering: The 'EIN' column was removed, while the 'NAME' column was retained, as the former had limited relevance to the prediction task.
+**Feature Engineering:** The 'EIN' column was removed, while the 'NAME' column was retained, as the former had limited relevance to the prediction task.
 
-Hyperparameter Tuning: A thorough hyperparameter tuning process was executed using Keras Tuner to explore various neural network architectures and configurations.
+**Hyperparameter Tuning:** A thorough hyperparameter tuning process was executed using Keras Tuner to explore various neural network architectures and configurations.
 
 As a result of these efforts, the refined deep learning model achieved an impressive accuracy rate of 79.8%, surpassing the original performance goal. This improved accuracy suggests that the model is well-suited to predict the success of funding applicants with a high level of confidence.
 
