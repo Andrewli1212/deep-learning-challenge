@@ -65,8 +65,13 @@ Relu was used to introduce non-linearity and sigmoid was used for binary classif
 The initial implementation of the model attained an accuracy of 73%, which did not meet the predefined performance target of 75%. In response, a series of refinements were undertaken to enhance the model's efficacy.
 
 Firstly, a decision was made to retain the 'NAME' column while discarding the 'EIN' column within the dataset, as the latter was found to have limited relevance to the predictive task at hand. Subsequently, a comprehensive hyperparameter tuning approach was formulated using Keras Tuner. This strategy allowed for the systematic exploration of various neural network architectures and configurations.
+![](image/hp.png)
+![](image/best.png)
+![](image/top_3_hp.png)
+![](image/top_3.png)
 
 Through the diligent optimization process, the model's accuracy was notably improved, achieving a commendable accuracy rate of 79.8%. This performance surpasses the original goal and underscores the efficacy of the refined model in predicting outcomes with a high degree of accuracy.
+![](image/acc.png)
 
 ## Summary
 
