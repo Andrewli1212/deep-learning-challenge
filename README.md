@@ -1,6 +1,6 @@
 # Neural Network Model Report
 
-![](Image/nn.jpeg)
+![](image/nn.jpg)
 
 ## Table of Content
 
