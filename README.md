@@ -59,12 +59,15 @@ EIN and NAME columns are identification columns and are neither targets nor feat
 2. Hidden layer 1: 80 neurons with relu activation function.
 3. Hidden layer 2: 30 neurons with relu activation function.
 4. Output layer: 1 neuron with a sigmoid activation function.
+![](image/starter_network.png)
 
 Relu was used to introduce non-linearity and sigmoid was used for binary classification to produce a probability score. 
 
 The initial implementation of the model attained an accuracy of 73%, which did not meet the predefined performance target of 75%. In response, a series of refinements were undertaken to enhance the model's efficacy.
+![](image/starter_acc.png)
 
 Firstly, a decision was made to retain the 'NAME' column while discarding the 'EIN' column within the dataset, as the latter was found to have limited relevance to the predictive task at hand. Subsequently, a comprehensive hyperparameter tuning approach was formulated using Keras Tuner. This strategy allowed for the systematic exploration of various neural network architectures and configurations.
+![](image/hp_code.png)
 ![](image/hp.png)
 ![](image/best.png)
 ![](image/top_3_hp.png)
